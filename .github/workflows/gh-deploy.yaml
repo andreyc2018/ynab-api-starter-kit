@@ -15,7 +15,7 @@ jobs:
       - name: "Install Node.js"
         uses: actions/setup-node@v2
         with:
-          node-version: 12
+          node-version: 16
       - name: "Install dependencies, then build output JS bundle"
         run: |
           npm install
